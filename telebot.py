@@ -2,7 +2,7 @@ import telebot
 from telebot import custom_filters
 from telebot import types
 
-token = '5369890844:AAFCE_UUj2VBBgZwS1uvFjxRCJNgMp0FOyM'
+token = 'token'
 bot = telebot.TeleBot(token, parse_mode = None)
 
 markup = types.ReplyKeyboardMarkup(row_width=3)

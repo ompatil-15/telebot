@@ -6,15 +6,15 @@ token = 'token'
 bot = telebot.TeleBot(token, parse_mode = None)
 
 markup = types.ReplyKeyboardMarkup(row_width=3)
-itembtn1 = types.KeyboardButton('Chemistry')
-itembtn2 = types.KeyboardButton('Physics')
-itembtn3 = types.KeyboardButton('EM 1')
+itembtn1 = types.KeyboardButton('PISB')
+itembtn2 = types.KeyboardButton('PASC')
+itembtn3 = types.KeyboardButton('PCSB')
 
-itembtna = types.KeyboardButton('EM 2')
-itembtnv = types.KeyboardButton('PPS')
-itembtnc = types.KeyboardButton('BXE')
-itembtnd = types.KeyboardButton('ES')
-itembtne = types.KeyboardButton('EG')
+itembtna = types.KeyboardButton('NSS')
+itembtnv = types.KeyboardButton('Robotics')
+itembtnc = types.KeyboardButton('GDU')
+itembtnd = types.KeyboardButton('DEBSOC')
+itembtne = types.KeyboardButton('PNAB')
 markup.add(itembtn1, itembtn2, itembtn3,itembtna,itembtnv,itembtnc,itembtnd,itembtne)
 bot.send_message(5011331204, "SUBJECTS", reply_markup=markup)
 
